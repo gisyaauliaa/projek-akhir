@@ -44,7 +44,6 @@ type
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
-    Button5: TButton;
     DBGrid1: TDBGrid;
     Label15: TLabel;
     procedure Button1Click(Sender: TObject);

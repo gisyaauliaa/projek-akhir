@@ -43,6 +43,14 @@ object Form7: TForm7
         Caption = 'Data Riwayat Poin'
         OnClick = DataRiwayatPoin1Click
       end
+      object DataHubungan1: TMenuItem
+        Caption = 'Input Data Hubungan'
+        OnClick = DataHubungan1Click
+      end
+      object DataHubungan2: TMenuItem
+        Caption = 'Data Hubungan'
+        OnClick = DataHubungan2Click
+      end
     end
   end
 end

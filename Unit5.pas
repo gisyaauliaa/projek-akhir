@@ -21,7 +21,6 @@ type
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
-    Button5: TButton;
     Label5: TLabel;
     ZConnection1: TZConnection;
     ZQuery1: TZQuery;

@@ -167,8 +167,8 @@ object Form3: TForm3
       'Wali')
   end
   object Button1: TButton
-    Left = 104
-    Top = 235
+    Left = 171
+    Top = 237
     Width = 75
     Height = 25
     Caption = 'SAVE'
@@ -176,8 +176,8 @@ object Form3: TForm3
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 199
-    Top = 234
+    Left = 266
+    Top = 236
     Width = 75
     Height = 25
     Caption = 'EDIT'
@@ -185,8 +185,8 @@ object Form3: TForm3
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 295
-    Top = 235
+    Left = 362
+    Top = 237
     Width = 75
     Height = 25
     Caption = 'DELETE'
@@ -194,21 +194,13 @@ object Form3: TForm3
     OnClick = Button3Click
   end
   object Button4: TButton
-    Left = 393
-    Top = 233
+    Left = 460
+    Top = 235
     Width = 75
     Height = 25
     Caption = 'CLEAR'
     TabOrder = 12
     OnClick = Button4Click
-  end
-  object Button5: TButton
-    Left = 488
-    Top = 233
-    Width = 75
-    Height = 25
-    Caption = 'REPORT'
-    TabOrder = 13
   end
   object DBGrid1: TDBGrid
     Left = 25
@@ -216,7 +208,7 @@ object Form3: TForm3
     Width = 674
     Height = 126
     DataSource = DataSource1
-    TabOrder = 14
+    TabOrder = 13
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11

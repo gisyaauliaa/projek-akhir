@@ -241,21 +241,13 @@ object Form6: TForm6
     TabOrder = 13
     OnClick = Button4Click
   end
-  object Button5: TButton
-    Left = 406
-    Top = 393
-    Width = 75
-    Height = 25
-    Caption = 'REPORT'
-    TabOrder = 14
-  end
   object DBGrid1: TDBGrid
     Left = 24
     Top = 438
     Width = 1189
     Height = 144
     DataSource = DataSource1
-    TabOrder = 15
+    TabOrder = 14
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -269,7 +261,7 @@ object Form6: TForm6
     Width = 398
     Height = 242
     DataSource = DataSource2
-    TabOrder = 16
+    TabOrder = 15
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -283,7 +275,7 @@ object Form6: TForm6
     Width = 438
     Height = 243
     DataSource = DataSource3
-    TabOrder = 17
+    TabOrder = 16
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11

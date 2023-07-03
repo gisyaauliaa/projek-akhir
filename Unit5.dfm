@@ -126,21 +126,13 @@ object Form5: TForm5
     TabOrder = 7
     OnClick = Button4Click
   end
-  object Button5: TButton
-    Left = 413
-    Top = 193
-    Width = 75
-    Height = 25
-    Caption = 'REPORT'
-    TabOrder = 8
-  end
   object DBGrid1: TDBGrid
     Left = 31
     Top = 241
     Width = 754
     Height = 120
     DataSource = DataSource1
-    TabOrder = 9
+    TabOrder = 8
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11

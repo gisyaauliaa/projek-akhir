@@ -16,12 +16,16 @@ type
     DataWaliKelas1: TMenuItem;
     DataPoin1: TMenuItem;
     DataRiwayatPoin1: TMenuItem;
+    DataHubungan1: TMenuItem;
+    DataHubungan2: TMenuItem;
     procedure DataSiswa1Click(Sender: TObject);
     procedure DataOrangTua1Click(Sender: TObject);
     procedure DataKelas1Click(Sender: TObject);
     procedure DataWaliKelas1Click(Sender: TObject);
     procedure DataPoin1Click(Sender: TObject);
     procedure DataRiwayatPoin1Click(Sender: TObject);
+    procedure DataHubungan1Click(Sender: TObject);
+    procedure DataHubungan2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,7 +37,7 @@ var
 
 implementation
 
-uses Unit1, Unit3, Unit2, Unit4, Unit5, Unit6;
+uses Unit1, Unit3, Unit2, Unit4, Unit5, Unit6, Unit8, Unit9;
 
 {$R *.dfm}
 
@@ -65,6 +69,16 @@ end;
 procedure TForm7.DataRiwayatPoin1Click(Sender: TObject);
 begin
 Form6.showmodal;
+end;
+
+procedure TForm7.DataHubungan1Click(Sender: TObject);
+begin
+Form8.showmodal;
+end;
+
+procedure TForm7.DataHubungan2Click(Sender: TObject);
+begin
+Form9.showmodal;
 end;
 
 end.

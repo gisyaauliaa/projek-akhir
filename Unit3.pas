@@ -31,7 +31,6 @@ type
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
-    Button5: TButton;
     Label10: TLabel;
     DBGrid1: TDBGrid;
     DataSource1: TDataSource;
